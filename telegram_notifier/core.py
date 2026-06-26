@@ -26,6 +26,7 @@ class Notifier:
                     parse_mode="HTML",
                     disable_notification=silent,
                 )
+                return
 
             except RetryAfter as e:
                 if isinstance(e.retry_after, timedelta):
