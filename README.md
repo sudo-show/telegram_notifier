@@ -15,7 +15,7 @@ The package provides automatic retries for Telegram rate limits and network time
 
 ## Installation
 
-```pip install telegram-notifier```
+```pip install git+{{REPOSITORY COPY LINK}}```
 
 ## Quick Start
 
