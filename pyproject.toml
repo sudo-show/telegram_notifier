@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "telegram_notifier"
+dynamic = ["version"]
+description = "Telegram bot notification helper"
+requires-python = ">=3.10"
+dependencies = [
+    "python-telegram-bot>=22.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["telegram_notifier*"]
+
+[tool.setuptools_scm]
